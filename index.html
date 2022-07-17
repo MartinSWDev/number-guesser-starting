@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
     <title>Number Guesser</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
@@ -9,6 +9,7 @@
   <body>
     <div class="game-container">
       <header>
+        <!-- Header -->
         <h1>Number Guesser!</h1>
       </header>
       
@@ -32,6 +33,7 @@
             <p class="score-label">Score: <span id="human-score">0</span></p>
           </div>
           <input type="number" id="human-guess" min=0 max=9 value=0>
+          <label for="human-guess"></label>
           <div class="number-controls">
             <button class="number-control left" id="subtract" disabled>-</button>
             <button class="number-control right" id="add">+</button>
